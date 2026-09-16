@@ -104,39 +104,7 @@ section p {
     text-align: justify;
 }
 
-/* --- Carrossel Interativo (Com Setas) --- */
-.carrossel-wrapper {
-    position: relative;
-    max-width: 100%;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
 
-.carrossel-track {
-    display: flex;
-    overflow-x: auto; /* Permite rolar para o lado */
-    scroll-snap-type: x mandatory; /* Cria o efeito "magnético" ao trocar de foto */
-    scroll-behavior: smooth; /* Faz a transição ser suave ao clicar nas setas */
-    scrollbar-width: none; /* Esconde a barra de rolagem no Firefox */
-}
-
-.carrossel-track::-webkit-scrollbar {
-    display: none; /* Esconde a barra de rolagem no Chrome/Edge */
-}
-
-.slide {
-    position: relative;
-    flex: 0 0 100%; /* Cada slide ocupa 100% da largura visível */
-    scroll-snap-align: start; /* Alinha perfeitamente a imagem na tela */
-}
-
-.slide img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    display: block;
-}
 
 /* Estilo das Setas */
 .seta {
