@@ -43,7 +43,7 @@ header h2 {
 
 /* Cabeçalho com Efeito Parallax */
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://raw.githubusercontent.com/sam1borabil/atividades-senac/refs/heads/main/Gemini_Generated_Image_c5l0fsc5l0fsc5l0.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://raw.githubusercontent.com/sam1borabil/portifolio-assets/refs/heads/main/TechAI.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -230,7 +230,7 @@ section p {
 /* Rodapé com Parallax */
 footer {
     /* Troque o link abaixo pela sua nova imagem (ou a mesma do cabeçalho) */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('https://raw.githubusercontent.com/sam1borabil/atividades-senac/refs/heads/main/Gemini_Generated_Image_c5l0fsc5l0fsc5l0.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('https://raw.githubusercontent.com/sam1borabil/portifolio-assets/refs/heads/main/TechAI.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
